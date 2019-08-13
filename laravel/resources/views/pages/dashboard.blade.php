@@ -88,7 +88,7 @@
 
         <div class="col-sm-9 col-lg-10">
             <h1>Dashboard</h1>
-            <div class="row main-">
+            <div class="row">
                 <div class="col-sm-2">
                     <p>Point Of Sales</p>
                 </div>
