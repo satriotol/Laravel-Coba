@@ -25,11 +25,14 @@
             left: 0;
             right: 0;
         }
-
         .lebar {
             width: 80%
         }
-
+        @media (max-width: 767.98px) {
+            .lebar {
+                width: 100%
+            }
+        }
     </style>
     <title>Login</title>
 </head>
