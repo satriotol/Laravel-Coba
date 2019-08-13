@@ -29,7 +29,6 @@
 
     /* main */
 
-
 </style>
 <section>
     <div class="row">
@@ -85,32 +84,21 @@
             <div class="row main-">
                 <div class="col-sm-2">
                     <p>Point Of Sales</p>
-                    <i></i>
                 </div>
                 <div class="col-sm-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic inventore, corporis
-                    similique aspernatur et quasi adipisci blanditiis, architecto veniam tenetur reprehenderit
-                    cupiditate nisi eos aliquid odio. Quae, quos consequatur.
+                    <p>Sales</p>
                 </div>
                 <div class="col-sm-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic inventore, corporis
-                    similique aspernatur et quasi adipisci blanditiis, architecto veniam tenetur reprehenderit
-                    cupiditate nisi eos aliquid odio. Quae, quos consequatur.
+                    <p>Reports</p>
                 </div>
                 <div class="col-sm-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic inventore, corporis
-                    similique aspernatur et quasi adipisci blanditiis, architecto veniam tenetur reprehenderit
-                    cupiditate nisi eos aliquid odio. Quae, quos consequatur.
+                    <p>Outlets</p>
                 </div>
                 <div class="col-sm-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic inventore, corporis
-                    similique aspernatur et quasi adipisci blanditiis, architecto veniam tenetur reprehenderit
-                    cupiditate nisi eos aliquid odio. Quae, quos consequatur.
+                    <p>Users</p>
                 </div>
                 <div class="col-sm-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, hic inventore, corporis
-                    similique aspernatur et quasi adipisci blanditiis, architecto veniam tenetur reprehenderit
-                    cupiditate nisi eos aliquid odio. Quae, quos consequatur.
+                    <p>System Setting</p>
                 </div>
             </div>
         </div>
