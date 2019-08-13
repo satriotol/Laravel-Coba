@@ -9,13 +9,9 @@
     <header>
         @include('includes.navbar')
     </header>
-
     <div>
-
         @yield('content')
-
     </div>
-
     <footer>
         @include('includes.footer')
     </footer>
