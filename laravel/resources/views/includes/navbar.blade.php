@@ -1,28 +1,19 @@
 <link href="{{ asset('css/icono.min.css') }}" rel="stylesheet">
-<style>
-    .user-menu {
-        display: inline-block;
-        margin-top: 10px;
-        margin-right: 10px;
-        float: right;
-        list-style: none;
-        padding: 0;
-    }
-
-</style>
+<link rel="cannonical" href="https://fontawesome.com/icons">
 <section>
     <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #e3f2fd;"
         role="navigation">
         <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#sidebar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">POS - Multi Outlets</a>
 
-            <div class="navbar-header">
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                    data-target="#sidebar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">POS - Multi Outlets</a>
-                <ul class="navbar-nav flex-row d-lg-inline-block my-2 my-sm-0">
-                    <div class="dropdown">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <div class="dropdown mr-sm-2">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Dropdown button
@@ -34,10 +25,7 @@
                         </div>
                     </div>
                 </ul>
-
-
             </div>
         </div>
-
     </nav>
 </section>
