@@ -13,3 +13,4 @@
 
 Route::get('/','PosController@login');
 Route::get('/dashboard','PosController@dashboard');
+Route::get('/pos','PosController@pos');

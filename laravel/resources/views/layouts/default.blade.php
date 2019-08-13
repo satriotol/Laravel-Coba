@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 
-<body>
+<body style="background-color: #f1f4f7;">
     <header>
         @include('includes.navbar')
     </header>
