@@ -11,7 +11,7 @@
             </button>
             <a class="navbar-brand" href="#" style="color: #ffff">POS - Multi Outlets</a>
 
-            <div class="navbar-nav" style="float: right;">
+            <div class="navbar-nav">
                 <div class="dropdown">
                     <a href="#" class="dropdown-toggle mr-4" data-toggle="dropdown"><img src="{{asset('img/english_flag.png')}}" alt=""><span class="caret"></span></a>
                     <div class="dropdown-menu dropdown-menu-right">
