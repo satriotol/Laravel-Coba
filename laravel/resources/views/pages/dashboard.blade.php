@@ -1,18 +1,25 @@
 @extends('layouts.default')
 @section('content')
 <style>
+    body{
+        background-color: #f0f0f0;
+    }
     a {
         text-decoration: none;
+        color: #005b8a;
     }
-
-    a:hover {
+    li a:hover {
         text-decoration: none;
+        color: white;
+        background-color: #005b8a;
+    }
+    .bg-sidebar{
+        background-color: white;
     }
 
     .nav {
         padding-left: 0;
         margin-bottom: 0;
-        margin-top: 5px;
         list-style: none;
     }
 
@@ -32,8 +39,8 @@
 </style>
 <section>
     <div class="row">
-        <div class="col-sm-3 col-lg-2 d-none d-md-block bg-light sidebar">
-            <ul class="nav flex-column">
+        <div class="col-sm-3 col-lg-2 d-none d-md-block sidebar">
+            <ul class="nav flex-column bg-sidebar">
                 <li>
                     <a href="">Dashboard</a>
                 </li>
@@ -81,7 +88,7 @@
 
         <div class="col-sm-9 col-lg-10">
             <h1>Dashboard</h1>
-            <div class="row main-">
+            <div class="row">
                 <div class="col-sm-2">
                     <p>Point Of Sales</p>
                 </div>
