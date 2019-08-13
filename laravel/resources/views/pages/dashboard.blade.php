@@ -1,6 +1,16 @@
 @extends('layouts.default')
 @section('content')
 <style>
+    .panel {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 767.98px) {
+        .panel {
+            margin-bottom: 40px;
+        }
+    }
+
     /* main */
     .panel-body.easypiechart-panel {
         background-color: white;
@@ -22,7 +32,7 @@
     <div class="container">
         <h1>Dashboard</h1>
         <div class="row text-center">
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
@@ -32,7 +42,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
@@ -42,7 +52,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
@@ -52,7 +62,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
@@ -62,7 +72,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class=" panel-body easypiechart-panel">
@@ -72,7 +82,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-2">
+            <div class="col-6 col-md-2">
                 <div class="panel panel-default">
                     <a href="#">
                         <div class=" panel-body easypiechart-panel">
