@@ -1,19 +1,31 @@
 @extends('layouts.default')
 @section('content')
 <style>
-    body{
+    body {
         background-color: #f0f0f0;
     }
+
     a {
         text-decoration: none;
         color: #005b8a;
+        transition: 0.3s;
     }
+
+    a:hover {
+        text-decoration: none;
+    }
+
     li a:hover {
         text-decoration: none;
         color: white;
         background-color: #005b8a;
     }
-    .bg-sidebar{
+
+    .menu-sidebar {
+        margin-top: 56px;
+    }
+
+    .bg-sidebar {
         background-color: white;
     }
 
@@ -36,8 +48,23 @@
 
     /* main */
 
+    .panel-body.easypiechart-panel {
+        background-color: white;
+        color: #005b8a;
+        border: 1px solid;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        transition: 0.3s;
+    }
+
+    .panel-body.easypiechart-panel:hover {
+        background-color: #005b8a;
+        color: white;
+    }
+
 </style>
-<section>
+<section class="menu-sidebar">
     <div class="row">
         <div class="col-sm-3 col-lg-2 d-none d-md-block sidebar">
             <ul class="nav flex-column bg-sidebar">
@@ -85,30 +112,73 @@
                 </li>
             </ul>
         </div>
-
         <div class="col-sm-9 col-lg-10">
-            <h1>Dashboard</h1>
-            <div class="row">
-                <div class="col-sm-2">
-                    <p>Point Of Sales</p>
+            <div class="container">
+                <h1>Dashboard</h1>
+                <div class="row text-center">
+                    <div class="col-xs-6 col-md-2">
+                        <div class="panel panel-default">
+                            <a href="#">
+                                <div class="panel-body easypiechart-panel">
+                                    <h5>Point of Sales</h5>
+                                    <i class="icono-tiles"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="panel panel-default">
+                            <a href="#">
+                                <div class="panel-body easypiechart-panel">
+                                    <h5>Sales</h5>
+                                    <i class="icono-cart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="panel panel-default">
+                            <a href="#">
+                                <div class="panel-body easypiechart-panel">
+                                    <h5>Reports</h5>
+                                    <i class="icono-barChart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="panel panel-default">
+                            <a href="#">
+                                <div class="panel-body easypiechart-panel">
+                                    <h5>Outlets</h5>
+                                    <i class="icono-market"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <div class="panel panel-default">
+                            <a href="#"">
+                                <div class=" panel-body easypiechart-panel">
+                                <h5>Users</h5>
+                                <i class="icono-user"></i>
+                        </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-2">
-                    <p>Sales</p>
-                </div>
-                <div class="col-sm-2">
-                    <p>Reports</p>
-                </div>
-                <div class="col-sm-2">
-                    <p>Outlets</p>
-                </div>
-                <div class="col-sm-2">
-                    <p>Users</p>
-                </div>
-                <div class="col-sm-2">
-                    <p>System Setting</p>
+                <div class="col-xs-6 col-md-2">
+                    <div class="panel panel-default">
+                        <a href="#"">
+                                <div class=" panel-body easypiechart-panel">
+                            <h5>System Setting</h5>
+                            <i class="icono-gear"></i>
+                    </div>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 </section>
 @stop
