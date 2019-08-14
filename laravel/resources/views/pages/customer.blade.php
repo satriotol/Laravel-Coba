@@ -30,7 +30,7 @@
 <div class="col-sm-9 col-lg-10">
     <div class="container">
         <h1>Customer</h1>
-        <form action="" class="mt-5 master-form">
+        <form action="" class="mt-2 master-form">
             <div class="d-flex">
                 <div class="mr-auto bd-highlight">
                     <input class="btn btn-primary" type="button" value="Add Customer">
