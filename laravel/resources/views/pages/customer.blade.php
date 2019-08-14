@@ -66,6 +66,33 @@
                     </div>
                 </div>
             </div>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Customer Name</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Mobile</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bastuti</td>
+                            <td>bastuti@gmail.com</td>
+                            <td>089238918391</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
         </form>
     </div>
 </div>
