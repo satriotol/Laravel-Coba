@@ -1,6 +1,9 @@
 @extends('layouts.default-sidebar')
 @section('content')
 <style>
+    h1{
+        color: #5f6468;
+    }
     .panel {
         margin-bottom: 10px;
     }
