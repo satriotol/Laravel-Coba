@@ -1,9 +1,10 @@
 @extends('layouts.default-sidebar')
 @section('content')
 <style>
-    h1{
+    h1 {
         color: #5f6468;
     }
+
     .panel {
         margin-bottom: 10px;
     }
@@ -82,7 +83,8 @@
                         <div class="panel-body easypiechart-panel">
                             <p>Outlets</p>
                             <div class="icon-fa">
-                                <i class="fa fa-home" aria-hidden="true"></i> </div>
+                                <i class="fa fa-building-o" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
