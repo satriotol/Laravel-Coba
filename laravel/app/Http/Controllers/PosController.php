@@ -17,6 +17,6 @@ class PosController extends Controller
     }
 
     public function pos(){
-        return view('pos');    
+        return view('pages.pos');    
     }    
 }

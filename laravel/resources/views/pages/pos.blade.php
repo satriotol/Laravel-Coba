@@ -37,6 +37,12 @@
         font-size: 14px;
     }
 
+    @media (max-width: 767.98px) {
+        .kotak {
+           margin-bottom:0%;
+        }
+    }
+
 </style>
 <section>
     <div class="container">
