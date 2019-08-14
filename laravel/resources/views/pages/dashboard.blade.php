@@ -1,6 +1,10 @@
 @extends('layouts.default-sidebar')
 @section('content')
 <style>
+    h1 {
+        color: #5f6468;
+    }
+
     .panel {
         margin-bottom: 10px;
     }
@@ -22,9 +26,14 @@
         transition: 0.3s;
     }
 
+
     .panel-body.easypiechart-panel:hover {
         background-color: #005b8a;
         color: white;
+    }
+
+    .icon-fa {
+        font-size: 1.5rem;
     }
 
 </style>
@@ -37,7 +46,9 @@
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
                             <p>Point of Sales</p>
-                            <i class="icono-tiles"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-th"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -47,7 +58,9 @@
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
                             <p>Sales</p>
-                            <i class="icono-cart"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -57,7 +70,9 @@
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
                             <p>Reports</p>
-                            <i class="icono-barChart"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -67,7 +82,9 @@
                     <a href="#">
                         <div class="panel-body easypiechart-panel">
                             <p>Outlets</p>
-                            <i class="icono-market"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-building-o" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -77,7 +94,9 @@
                     <a href="#">
                         <div class=" panel-body easypiechart-panel">
                             <p>Users</p>
-                            <i class="icono-user"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-user"></i>
+                            </div>
                         </div>
                     </a>
                 </div>
@@ -87,7 +106,9 @@
                     <a href="#">
                         <div class=" panel-body easypiechart-panel">
                             <p>System Setting</p>
-                            <i class="icono-gear"></i>
+                            <div class="icon-fa">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </a>
                 </div>

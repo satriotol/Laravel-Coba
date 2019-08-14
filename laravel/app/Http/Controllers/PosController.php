@@ -12,8 +12,11 @@ class PosController extends Controller
     public function dashboard(){
         return view('pages.dashboard');    
     }
+    public function customer(){
+        return view('pages.customer');    
+    }
 
     public function pos(){
-        return view('pos');    
+        return view('pages.pos');    
     }    
 }

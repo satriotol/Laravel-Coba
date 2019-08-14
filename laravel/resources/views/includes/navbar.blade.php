@@ -1,5 +1,4 @@
 <link href="{{ asset('css/icono.min.css') }}" rel="stylesheet">
-<link rel="cannonical" href="https://fontawesome.com/icons">
 
 <style>
     .user-menu {
