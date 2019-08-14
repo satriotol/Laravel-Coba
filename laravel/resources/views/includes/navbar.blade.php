@@ -89,6 +89,12 @@
     .collapse.in {
     display: block;
 }
+.sidebar ul.nav ul.children {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: #f9f9f9;
+}
 
     @media (min-width: 768px) {
         .navbar-expand .navbar-toggler {
@@ -165,13 +171,17 @@
     <div id="sidebar-collapse" class=" col-sm-3 col-lg-2 sidebar collapse in">
         <ul class="nav flex-column bg-sidebar">
             <li>
-                <a href="">Dashboard</a>
+                <a href="dashboard/">Dashboard</a>
             </li>
             <li>
                 <a href="">Customer</a>
             </li>
             <li>
-                <a href="">Gift Card</a>
+                <a class="parent" data-toggle="collapse" href="#subitem-gift">Gift Card</a>
+                <ul class="collapse" id="subitem-gift">
+                <li><a class="" data-parent="subitem-gift" href="#">Add Gift Card</a></li>
+                <li><a class="" data-parent="subitem-gift" href="#">Add Gift Card</a></li>
+                </ul>
             </li>
             <li>
                 <a href="">Debit</a>
