@@ -1,5 +1,4 @@
 <link href="{{ asset('css/icono.min.css') }}" rel="stylesheet">
-<link rel="cannonical" href="https://fontawesome.com/icons">
 
 <section>
     <nav class="navbar navbar-expand fixed-top flex-column flex-md-row bd-navbar" style="background-color: #005b8a;"
